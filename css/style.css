@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    /* position: sticky; */
+    border: 2px solid rgb(241, 239, 233);
+    background-color: white;
+    z-index: 100000;
+}
+div input{
+    border: 3px solid black;
+    margin: 2px 326px;
+    width: 222px;
+    height: 39px;
+    border-radius: 15px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#insta{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+.right img{
+    margin: 14px 15px;
+    /* padding-right: 20px; */
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    /* border: 2px solid red; */
+    left: 340px;
+    top: 21px;
+    font-size: 100;
+    
+}
+
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+     width: 50%;
+    margin: 21px auto;
+    /* left: 34px; */
+            /* border: 2px solid white; */
+
+}
+.right{
+    /* border: 2px solid purple; */
+    display: inline-block;
+    position: absolute;
+    right: 290px;
+    top: 21px;
+        /* border: 2px solid pink; */
+
+}
+.img{
+    height: 800px;
+    border: 2px solid red;
+    margin: 12px 400px;
+}
