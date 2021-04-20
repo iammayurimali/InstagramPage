@@ -61,19 +61,23 @@ body{
     height: 100px;
     border: 2px solid red;
     margin: 12px 400px;
+    
 }
-.story1{
-    height: 94px;
-    width: 100px;
+.story img{
     display: inline-block;
-    margin: 1px 0px;
-    background-image: url('E:/coep/oop/swing-paint-application-master/bin/pencil.png');
-    border: 2px solid red;
-    background-repeat: no-repeat;
-    background-position: center top 34px;
+    height: 95px;
+    margin: 0px 0px;
+    /* border: 2px solid; */
+   
 }
+ .profile img{
+    display: inline-block;
+    height: 95px;
+    margin: 0px 0px;
+ }
+
 .imgProfile{
-    height: 800px;
+    height: 650px;
     border: 2px solid purple;
     margin: 12px 400px;
 }
@@ -81,4 +85,10 @@ body{
     border: 2px solid black;
     margin: 8px 4px;
     height: 100px;
+}
+
+.image img{
+   margin-left: 12px;
+   margin-right: 12px;
+
 }
